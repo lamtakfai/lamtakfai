@@ -1,0 +1,113 @@
+@media screen and (max-width:359px) and (min-width:320px) {
+    html,body{
+        font-size: 50px !important;
+    }
+}
+@media screen and (max-width:374px) and (min-width:360px) {
+    html,body{
+        font-size: 56.25px !important;
+    }
+}
+@media screen and (max-width:413px) and (min-width:375px) {
+   html,body{
+        font-size: 58.5px !important;
+    }
+}
+@media screen and (max-width:639px)  and (min-width:414px){
+   html,body{
+        font-size: 64.6px !important;
+    }
+}@media screen and (min-width:640px) {
+   html,body{
+        font-size: 100px !important;
+    }
+}
+
+body{
+    background-color: #f2f2f2;
+}
+a{
+    color: black;
+}
+a:hover{
+    color: black;
+    text-decoration: none;
+}
+.a{
+    position: relative;
+}
+.p0{
+    padding: 0;
+}
+.bgc-r{
+    background-color: #fb7574;
+}
+.bgc-w{
+    background-color: white;
+}
+.col-w{
+    color: white;
+}
+.mgt{
+    margin-top: 0.3rem;
+}
+.mgb{
+    margin-bottom: 0;
+}
+.pdb{
+    padding-bottom: 0.3rem;
+}
+.pdl{
+    padding-left: 15px;
+}
+.text{
+    font-size: 0.3rem;
+}
+.text2{
+    font-size: 1rem;
+}
+.text3{
+    font-size: 0.4rem;
+    color: #fb7574;
+}
+.text4{
+    font-size: 0.25rem;
+    color: #999;
+}
+.sub{
+    width: 1rem;
+    height: 0.5rem;
+    border-radius: 5px;
+    position: absolute;
+    top: 0.3rem;
+    right: 15px;
+    background-color: white;
+    color: #fb7574;
+    text-align: center;
+    line-height: 0.5rem;
+}
+
+.bdr{
+    border-right: 2px solid #f2f2f2;
+}
+.box{
+    height: 1.5rem;
+    border-bottom: 2px solid #f2f2f2
+}
+.mgb15{
+    margin-bottom: 15px;
+}
+.bdb{
+    border-bottom: 2px solid #f2f2f2;
+}
+.mgb50{
+    margin-bottom: 0.5rem;
+}
+.foot{
+    height: 1rem;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    line-height: 1rem;
+}

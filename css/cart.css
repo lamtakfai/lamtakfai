@@ -1,0 +1,80 @@
+@media screen and (max-width:359px) and (min-width:320px) {
+    html,body{
+        font-size: 50px !important;
+    }
+}
+@media screen and (max-width:374px) and (min-width:360px) {
+    html,body{
+        font-size: 56.25px !important;
+    }
+}
+@media screen and (max-width:413px) and (min-width:375px) {
+   html,body{
+        font-size: 58.5px !important;
+    }
+}
+@media screen and (max-width:639px)  and (min-width:414px){
+   html,body{
+        font-size: 64.6px !important;
+    }
+}@media screen and (min-width:640px) {
+   html,body{
+        font-size: 100px !important;
+    }
+}
+
+body{
+	background-color: #f2f2f2;
+	height: 10rem;
+	display: flex;
+}
+a{
+    color: black;
+}
+a:hover{
+    text-decoration: none;
+}
+.box{
+	margin:auto;
+	text-align: center;
+}
+.pic{
+	width: 3rem;
+}
+.text{
+	font-size: 0.3rem;
+    text-align: center;
+}
+.text2{
+	padding-left: 10px;
+	color: #67bcd6;
+	text-decoration:underline;
+}
+.text3{
+	font-size: 0.35rem;
+    text-align: center;
+}
+.foot{
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    line-height: 0.47rem;
+}
+.foot-pic{
+    width: 0.5rem;
+    height: 0.5rem;
+    margin-top: 5px;
+}
+.color{
+    color: #ff679a;
+}
+.bgc-w{
+    background-color: white;
+}
+.mg0{
+    margin: 0;
+}
+.text4{
+    font-size: 0.25rem;
+}

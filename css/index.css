@@ -1,0 +1,461 @@
+@media screen and (max-width:359px) and (min-width:320px) {
+    html,body{
+        font-size: 50px !important;
+    }
+}
+@media screen and (max-width:374px) and (min-width:360px) {
+    html,body{
+        font-size: 56.25px !important;
+    }
+}
+@media screen and (max-width:413px) and (min-width:375px) {
+   html,body{
+        font-size: 58.5px !important;
+    }
+}
+@media screen and (max-width:639px)  and (min-width:414px){
+   html,body{
+        font-size: 64.6px !important;
+    }
+}@media screen and (min-width:640px) {
+   html,body{
+        font-size: 100px !important;
+    }
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+	background-color: #f2f2f2;
+}
+p{
+	margin: 0;
+	font-size: 0.25rem;
+}
+span{
+	font-size: 0.25rem;
+}	
+li{
+	list-style: none;
+}
+a{
+    color: black;
+}
+a:hover{
+    color: black;
+    text-decoration: none;
+}	
+.p0{
+    padding: 0;
+}
+ul{
+	margin: 0;
+}
+.bgc-w{
+	background-color: white;
+}
+.carousel-indicators{
+	bottom: -20px;
+}
+.carousel-inner img{
+	width: 100%;
+}
+		/*搜索栏*/
+.row div{
+	text-align: center;
+	vertical-align: middle;
+}
+.sec{
+	height: 50px;	
+	line-height: 50px;
+}
+.secImg-size{
+	height: 20px;
+	margin-left: -1px;
+}
+.secImg-size2{
+	height: 20px;
+	width: 20px;
+	margin-bottom: 0.15rem;
+}
+.location{
+	color: #ff679a;
+	margin: 0;
+}
+.bgc-pink{
+	background-color: #ff679a;
+}
+.pdt-10{
+	padding-top: 8px;
+}
+.sec-box{
+	border: 1px solid #ff679a;
+}
+.sec-box2{
+	border-radius: 50px 0 0 50px; 
+}
+.sec-box3{
+	border-radius: 0 50px 50px 0;
+	outline: none;
+}
+.sec-box-inner{
+	width: 15px;
+	height: 17px;
+}				
+
+
+		/*广告*/
+.adv{
+	background-color: white;
+}
+.adv-a{
+	width: 50%;
+	height: 1.75rem;
+	background: url(../img/a.jpg) no-repeat;
+	background-size: 100% 100%;
+	float: left;
+	margin:  0.15rem 0;
+	border-right: 2px solid white;
+}
+.adv-b{
+	width: 50%;
+	height: 1.77rem;
+	background: url(../img/b.jpg) no-repeat;
+	background-size: 100% 99%;
+	float: left;
+	margin: 0.15rem 0;
+}
+.adv-pic2{
+	margin: 10px 0;
+	width: 50%;
+	float: left;
+	border-top: 1px solid #f2f2f2;
+	border-right: 1px solid #f2f2f2;
+}
+.adv-pic3{
+	margin-bottom: 10px;
+	width: 50%;
+	float: left;
+	border-top: 1px solid #f2f2f2;
+	border-right: 1px solid #f2f2f2;
+}
+	/*倒计时*/
+#con1,#con2,#con3{
+	float: left;
+    width: 25px;
+    height: 20px;
+    background-color: #e0e0e0;
+    text-align: center;
+    line-height: 20px;
+    margin-top: 15px;
+}
+.seckill-line{
+	float: left;
+    font-size: 18px;
+}
+.seckill{
+	height: 30px;
+	background-color: #ff679a;
+	border-radius: 50px;
+	margin-top: 10px;
+	color: white;
+	line-height: 30px;
+}
+.sec-shop{
+	width: 100%;
+	height: 60%;
+	float: left;
+	overflow: hidden;
+}
+.sec-shop-bigbox{
+	width:185%;
+	overflow: hidden;
+	position: relative;
+}
+.sec-shop-box{
+	width: 12%;
+	height: 2.6rem;
+    text-align: center;
+    float: left;
+    margin: 10px 0 0 15px;
+}
+.sec-money{
+	margin-top: 10px;
+	display: inline-block;
+}
+.sec-money2{
+	font-size: 12px;
+	color: #999;
+	margin-top: -5px;
+}
+.sec-shopPic{
+	width: 100%
+}
+
+	/*秒杀提示*/
+.message{
+	width: 35px;
+	height: 17px;
+	border-radius: 10px 0 0 10px;
+	position: absolute;
+	bottom: 40%;
+	right: 0px;
+	color: white;
+	font-size: 12px;
+	text-align: center;
+	line-height: 17px;
+}
+.message1{
+	background-color: #faba1a;
+}
+.message2{
+	background-color: #f87d78;
+}
+.message3{
+	background-color: #66cb9a;
+}
+.line{
+	line-height: 0.1rem;
+}
+
+	/*女装*/
+.nv{
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.goodStore{
+	width: 100%;
+	height: 50px;
+	border: 1px solid #e0e0e0;
+}
+.goodStore1{
+	background: url('../img/12_13.gif') no-repeat;
+	background-size: 100% 100%;
+}
+.goodStore2{
+	background: url('../img/11_05.gif') no-repeat;
+	background-size: 100% 100%;
+}
+.goodStore3{
+	background: url('../img/10_03.gif') no-repeat;
+	background-size: 100% 100%;
+} 
+.goodStore4{
+	background: url('../img/9_08.gif') no-repeat;
+	background-size: 100% 100%;
+} 
+.goodStore5{
+	background: url('../img/8_17.gif') no-repeat;
+	background-size: 100% 100%;
+} 
+.goodStore-box{
+	width: 20%;
+	height: 70px;
+	float: left;
+	padding-right: 8px;
+	float: left;
+}
+.goodStore-box2{
+	width: 20%;
+	height: 70px;
+	float: left;
+	position: relative;
+}
+
+		/*发现好货*/
+.find{
+	text-align: center;
+	height: 90px;
+}
+.a,.b,.c,.d{
+	position: relative;
+}
+.find-message{
+	width: 35px;
+	height: 17px;
+	border-radius: 10px 0 0 10px;
+	position: absolute;
+	top: 57%;
+	right: 8px;
+	color: white;
+	font-size: 12px;
+	text-align: center;
+	line-height: 17px;
+}
+.find-message1{
+	background-color: #faba1a;
+}
+.find-message2{
+	background-color: #f87d78;
+}
+.find-message3{
+	background-color: #66cb9a;
+}
+.find-message4{
+	background-color: #54c0f1;
+}
+.find-message5{
+	width: 35px;
+	height: 17px;
+	border-radius: 10px 0 0 10px;
+	background-color: #d7d5d6;
+	position: absolute;
+	top: 41px;
+	right: 0;
+	color: white;
+	font-size: 12px;
+	text-align: center;
+	line-height: 17px;
+}
+.line2{
+	line-height: 0.3rem;
+}
+		/*猜你喜欢*/
+.guess{
+	width: 100%;
+	height: 50px;
+}
+.guess-line{
+	width: 100%;
+	height: 2px;
+	background-color: #ddd;
+	position: relative;
+	top: 50%;
+}
+.guess-text{
+	width: 30%;
+	background-color: #f2f2f2;
+	font-size: 18px;
+	color: #d3d3d3;
+	text-align: center;
+	float: left;
+	position: relative;
+	top: 25%;
+	left: 35%;
+}
+.guess-love{
+	width: 100%;
+	height: 2.6rem;
+	overflow: hidden;
+	float: left;
+	background: url(../img/15_03.gif) no-repeat;
+	background-size: 150%;
+	background-position: -0.8rem 0;
+}
+.guess-love2{
+	width: 100%;
+	height: 2.6rem;
+	overflow: hidden;
+	float: left;
+	background: url(../img/16_03.gif) no-repeat;
+	background-size: 150%;
+	background-position: -0.8rem 0;
+}
+.guess-love3{
+	width: 100%;
+	height: 2.6rem;
+	overflow: hidden;
+	float: left;
+	background: url(../img/5_03.gif) no-repeat;
+	background-size: 150%;
+	background-position: -0.8rem 0;
+}
+.guess-love4{
+	width: 100%;
+	height: 2.6rem;
+	overflow: hidden;
+	float: left;
+	background: url(../img/14_03.gif) no-repeat;
+	background-size: 150%;
+	background-position: -0.8rem 0;
+}
+.guess-love5{
+	width: 100%;
+	height: 2.6rem;
+	overflow: hidden;
+	float: left;
+	background: url(../img/3_03.gif) no-repeat;
+	background-size: 150%;
+	background-position: -0.8rem 0;
+}
+.guess-love6{
+	width: 100%;
+	height: 2.6rem;
+	overflow: hidden;
+	float: left;
+	background: url(../img/2_03.gif) no-repeat;
+	background-size: 150%;
+	background-position: -0.8rem 0;
+}
+.guess-pic{
+	width: 100%;
+}
+.guess-p{
+	text-align: left;
+	font-size: 0.2rem;
+}
+.guess-p2{
+	text-align: left;
+	font-size: 0.2rem;
+	color: #ff679a;
+}
+.pdr{
+	padding-right: 	5px;
+	margin-bottom: 10px;
+}
+.pdl{
+	margin-bottom: 10px;
+	padding-left: 5px;
+}
+.pd5{
+	padding: 5px;
+}
+.mgb{
+	margin-bottom: 1.3rem;
+}
+
+	/*底部*/
+.foot{
+	position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.foot-pic{
+	width: 0.5rem;
+	margin-top: 5px;
+}
+.foot-color{
+	color: #ff679a;
+}
+.foot-pic2{
+	width: 0.5rem;
+	height: 0.5rem;
+	margin-top: 5px;
+}
+.rocket{
+	width: 1rem;
+	height: 1rem;
+	border-radius: 0.5rem;
+	box-shadow: 2px 2px 2px #ccc;
+	position: fixed;
+	bottom: 1.3rem;
+	right: 15px;
+	text-align: center;
+	opacity: 0.8;	
+}
+.roc{
+	position: absolute;
+    top: 0px;
+    left: 0.28rem;
+}
+#roc{
+	display: none;
+}
+.txt{
+	text-align: center;
+}
+.line3{
+	line-height: 0.47rem;
+}

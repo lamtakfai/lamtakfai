@@ -1,0 +1,83 @@
+@media screen and (max-width:359px) and (min-width:320px) {
+    html,body{
+        font-size: 50px !important;
+    }
+}
+@media screen and (max-width:374px) and (min-width:360px) {
+    html,body{
+        font-size: 56.25px !important;
+    }
+}
+@media screen and (max-width:413px) and (min-width:375px) {
+   html,body{
+        font-size: 58.5px !important;
+    }
+}
+@media screen and (max-width:639px)  and (min-width:414px){
+   html,body{
+        font-size: 64.6px !important;
+    }
+}@media screen and (min-width:640px) {
+   html,body{
+        font-size: 100px !important;
+    }
+}
+
+body{
+    background-color: #f2f2f2;
+}
+.bgc-w{
+    background-color: white;
+}
+.box-out{
+    height: 2.2rem;
+    width: 2.2rem; 
+    border: 2px solid #f89c2f;
+    border-radius: 1.2rem;
+    margin: 0.7rem auto;
+}
+.box{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 1rem;
+    background-color: #f89c2f;
+    margin: 0.05rem auto;
+    text-align: center;
+}
+.box2{
+    padding-top: 0.4rem;
+}
+.text{
+    font-size: 0.3rem;
+    color: white;
+}
+.text2{
+    font-size: 0.6rem;
+    color: white;
+}
+.text3{
+    font-size: 0.25rem;
+}
+.text4{
+    font-size: 0.2rem;
+    color: #ccc;
+}
+.text5{
+    font-size: 0.35rem;
+    color: #b3b3b3;
+    position: absolute;
+    top: 0.1rem;
+    right: 15px;
+}
+.mg0{
+    margin: 0;
+}
+.mgb{
+    margin-bottom: 0.3rem;
+}
+.mgt{
+    margin-top: 0.2rem;
+}
+.bdb{
+    border-bottom: 1px solid #f2f2f2;
+}

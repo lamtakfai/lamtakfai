@@ -1,0 +1,64 @@
+@media screen and (max-width:359px) and (min-width:320px) {
+    html,body{
+        font-size: 50px !important;
+    }
+}
+@media screen and (max-width:374px) and (min-width:360px) {
+    html,body{
+        font-size: 56.25px !important;
+    }
+}
+@media screen and (max-width:413px) and (min-width:375px) {
+   html,body{
+        font-size: 58.5px !important;
+    }
+}
+@media screen and (max-width:639px)  and (min-width:414px){
+   html,body{
+        font-size: 64.6px !important;
+    }
+}@media screen and (min-width:640px) {
+   html,body{
+        font-size: 100px !important;
+    }
+}
+
+body{
+    background-color: #f2f2f2;
+}
+.p0{
+    padding: 0;
+}
+.bgc-w{
+    background-color: white;
+}
+.lh{
+    height: 1.5rem;
+}
+.pic{
+    width: 1rem;
+    height: 1rem;
+    background: url(../img/12_13.gif) no-repeat;
+    background-size: 100% 100%;
+    float: left;
+}
+.pic2{
+    width: 1rem;
+    height: 1rem;
+    background: url(../img/17_03.gif) no-repeat;
+    background-size: 100% 150%;
+    float: left;
+}
+.mgt{
+    margin-top: 0.25rem;
+}
+.txt{
+    font-size: 0.3rem;
+}
+.txt2{
+    font-size: 0.25rem;
+    color: #ccc;
+}
+.bdb{
+    border-bottom: 1px solid #f2f2f2;
+}
